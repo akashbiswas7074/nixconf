@@ -22,6 +22,7 @@ fonts = {
     fira-code-symbols
     powerline-fonts
     nerdfonts
+    font-awesome
   ];
 
   fontconfig = {

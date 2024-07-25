@@ -12,6 +12,7 @@
 ./packge.nix
 ./fonts.nix
 ./gc.nix
+./battery.nix
 #./waybar.nix
     ];
 
@@ -61,7 +62,7 @@ services.blueman.enable = true;
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "gb";
+    layout = "us";
     xkbVariant = "";
   };
 
@@ -145,4 +146,6 @@ services.blueman.enable = true;
     '';
   };
   programs.light.enable = true;
+
+
 }
